@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  electron-tabs:
+    specifier: ^1.0.2
+    version: 1.0.2
+
 devDependencies:
   electron:
     specifier: ^27.0.4
@@ -541,6 +546,10 @@ packages:
       electron-is-dev: 1.2.0
       find-up: 5.0.0
     dev: true
+
+  /electron-tabs@1.0.2:
+    resolution: {integrity: sha512-6emAk7M1gwckbax00wquPJvxInCzOYYTgxROhtKAaYMFxx5Zn5Z3DQkCJszuH3g11Gako/JjCjgk3i0nc11LWQ==}
+    dev: false
 
   /electron@27.0.4:
     resolution: {integrity: sha512-ob29rN1mtiyAXzF8HsHd5jh8bYKd9OQDakfdOExi0F7epU97gXPHaj6JPjbBJ/vpki5d32SyKVePW4vxeNZk1A==}
