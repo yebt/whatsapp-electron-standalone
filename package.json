@@ -1,17 +1,18 @@
 {
-  "name": "Electron-standalone",
+  "name": "whatsapp-electron-standalone",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "set NODE_ENV=development&&electron ."
   },
   "keywords": [],
-  "author": "",
+  "author": "walo",
   "license": "ISC",
   "devDependencies": {
     "electron": "^27.0.4",
+    "electron-reload": "2.0.0-alpha.1",
+    "electron-reloader": "^1.2.3",
     "eslint": "^8.0.1",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.25.2",
